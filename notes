@@ -41,3 +41,11 @@ Salt Water
 Fight Kraken
   When you get close get grabbed by sea monster
 Pirate Songs
+
+## Added 2/9
+Would be good to have a central hub with control and status of the various connected items
+Visual layout with items color coded by active, inactive or error
+Able to quickly switch between scenarios (toddler, child, teenager, adult)
+Individual items could be specifically turned on and off
+Individual items could be fired manually if needed
+Websocket implementation where subscribers get messages to turn active or inactive, fire or not and send messages with their status when available
