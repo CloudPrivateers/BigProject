@@ -49,3 +49,22 @@ Able to quickly switch between scenarios (toddler, child, teenager, adult)
 Individual items could be specifically turned on and off
 Individual items could be fired manually if needed
 Websocket implementation where subscribers get messages to turn active or inactive, fire or not and send messages with their status when available
+
+## Added 2/23
+Network Options
+  Bluetooth
+  Wifi - Local (Yard-fi)
+  Wifi - Internet
+  
+Yard-fi
+  RPi main hub
+  Talking to each Wifi enabled Arduino Device
+  Need to set up a few Wifi enabled devices and get them networked to talk to one another
+  Orchestration from the main hub, On/Off high/med/low , general setting and error codes
+  
+Homework - Do we want websockets or HTTP (TCP) or Websocket (UTP) protocol
+  NOTE: Will have many devices up to 10 so need to plan network for that
+  Goal: Setup basic connection that works "Hello World" for our network solution
+    Connection between devices on the local network
+    One device turns on light in the other and writes to the database through endpoint
+    
